@@ -1,0 +1,45 @@
+@media (max-width:900px) {
+    .sky{
+        height: 700px;
+        overflow-x: hidden;
+    }
+    body{
+        height: 100vh;
+        width: 100vw;
+        margin: 0;
+        overflow-y: hidden;
+        overflow-x: hidden;
+    }
+    #head{
+        margin-top: 150px;
+        font-size: 20px;
+        margin-left: 340px;
+    }
+    #heading{
+        background-image:linear-gradient(to bottom right,#ce2222,#fd1d3c,#eb1f1f) ;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    #car{
+        width: 300px;
+        left: 13%;
+    }
+    #wheel{
+        bottom: 180px;
+        /* margin-left: 80px; */
+    }
+    #wheel img{
+        width: 50px;
+        height: 50px;
+    }
+    .frontwheel{
+        left: -77px;
+        top: 53px;
+    }
+    .backwheel{
+        position: relative;
+        left: 106px;
+        top: 53px;
+    
+    }
+}
